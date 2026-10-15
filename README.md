@@ -4,7 +4,7 @@ Custom skills, slash commands, templates, and guides I use with [Claude Code](ht
 
 Everything here is plain Markdown. Copy a file into the right folder and Claude Code picks it up. No build step, no dependencies.
 
-**Jump to:** [What's inside](#whats-inside) · [Quick start](#quick-start) · [Skills, commands, CLAUDE.md explained](#skills-commands-and-claudemd-explained) · [Install and use](#install-and-use) · [Workflow](#workflow-from-idea-to-production) · [Guides](#guides-using-ai-coding-agents-well) · [Repo structure](#repo-structure) · [Contributing](#contributing) · [FAQ](#faq)
+**Jump to:** [What's inside](#whats-inside) · [Quick start](#quick-start) · [Skills, commands, CLAUDE.md explained](#skills-commands-and-claudemd-explained) · [Install and use](#install-and-use) · [Workflow](#workflow-from-idea-to-production) · [Guides](#guides-using-ai-coding-agents-well) · [Repo structure](#repo-structure) · [Contributing](#contributing) · [FAQ](#faq) · [License](#license)
 
 ---
 
@@ -249,6 +249,7 @@ claude-code-swe-skills/
 │   └── enhance-and-refine-skill.md    # setup prompt that builds /enhance-and-refine
 ├── claude/
 │   └── CLAUDE.md                      # generic CLAUDE.md template
+├── LICENSE                            # Apache License 2.0
 ├── workflow/
 │   └── WORKFLOW.md                    # idea → production guide
 └── guides/
@@ -299,7 +300,7 @@ Only in step 3, after you approve the plan. For small changes, skip `/scope` and
 The prompts are plain Markdown, so the ideas carry over, but install paths and invocation differ. See [Across AI tools](guides/06-across-ai-tools.md).
 
 **What license is this under?**
-No license file has been added yet. Ask before reusing it beyond personal use.
+[Apache License 2.0](LICENSE). Use, modify, and share freely, including commercially; keep the license and copyright notice. See [License](#license).
 
 ---
 
@@ -309,3 +310,11 @@ No license file has been added yet. Ask before reusing it beyond personal use.
 - [mattpocock/skills](https://github.com/mattpocock/skills) (`grill-with-docs`) · [julianoczkowski/designer-skills](https://github.com/julianoczkowski/designer-skills) (`design-flow`)
 - [vercel-labs/skills](https://github.com/vercel-labs/skills): skills CLI and `find-skills`
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) (Anthropic)
+
+---
+
+## License
+
+Copyright 2026 omrapp
+
+Licensed under the [Apache License, Version 2.0](LICENSE). You may not use these files except in compliance with the License. Unless required by applicable law or agreed to in writing, they are distributed on an "AS IS" basis, without warranties or conditions of any kind. See the [LICENSE](LICENSE) file for the full terms.
