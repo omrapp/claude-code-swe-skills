@@ -103,7 +103,9 @@ Keep it short and concrete. Bullet points beat paragraphs. Unknowns are fine: wr
 
 ### Template
 
-Copy this into `IDEA.md`:
+> **Full version:** [`templates/IDEA.md`](../templates/IDEA.md) has option menus with a ⭐ recommended pick for every stack choice (frontend, database, auth, hosting, payments, and more). The [templates guide](../templates/README.md) also covers `CONTEXT.md`, `TASKS.md`, and `CLAUDE.md`, and says what to edit in each before you start.
+
+Short version: copy this into `IDEA.md`:
 
 ```markdown
 # <Project name>

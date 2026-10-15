@@ -15,6 +15,7 @@ Everything here is plain Markdown. Copy a file into the right folder and Claude 
 | [`/scope`](scope/scope.md) | Slash command | Asks at least 5 clarifying questions, writes a plan to `/plan/<feature>-plan.md`, waits for your "go", then builds with an agent team (design, frontend, backend, QA) plus architecture, security, and performance reviews. | `~/.claude/commands/scope.md` |
 | [`/enhance-and-refine`](enhance-and-refine-skill/enhance-and-refine-skill.md) | Skill (setup prompt) | Rewrites your prompt for clarity, grammar, technical accuracy, and structure, shows it to you, and runs it **only after you approve**. Runs on Claude Haiku to keep it cheap. | `~/.claude/skills/enhance-and-refine/SKILL.md` (Claude creates it for you) |
 | [CLAUDE.md template](claude/CLAUDE.md) | Project instructions | Generic `CLAUDE.md` for any project: core rules, approval gates, validation, git workflow, and a fixed final-report format. | `<your-project>/CLAUDE.md` |
+| [Project templates](templates/README.md) | Templates | Starter `IDEA.md` (with recommended tech-stack options), `CLAUDE.md`, `TASKS.md`, and `CONTEXT.md`, plus a guide on what to edit before you start. | `<your-project>/` |
 | [Workflow](workflow/WORKFLOW.md) | Guide | Step-by-step path from idea to production: `IDEA.md` template, skills I install, git branching, release checklist. | Read it |
 | [Guides](guides/README.md) | Guides | Sourced advice on tokens, prompting, Claude Code features, safety, and other AI tools. | Read it |
 
@@ -40,6 +41,10 @@ cp scope/scope.md ~/.claude/commands/scope.md
 
 # 3. Add the CLAUDE.md template to a project (then fill in the <placeholders>)
 cp claude/CLAUDE.md /path/to/your-project/CLAUDE.md
+
+# Starting a new project? Copy all the project templates instead
+# (see templates/README.md for what to edit in each)
+cp templates/{IDEA,CONTEXT,TASKS,CLAUDE}.md /path/to/your-project/
 ```
 
 Then, in any project:
@@ -249,6 +254,12 @@ claude-code-swe-skills/
 │   └── enhance-and-refine-skill.md    # setup prompt that builds /enhance-and-refine
 ├── claude/
 │   └── CLAUDE.md                      # generic CLAUDE.md template
+├── templates/
+│   ├── README.md                      # what to edit before you start
+│   ├── IDEA.md                        # idea + recommended stack options
+│   ├── CLAUDE.md                      # project CLAUDE.md
+│   ├── TASKS.md                       # progress tracker
+│   └── CONTEXT.md                     # domain glossary + decisions
 ├── LICENSE                            # Apache License 2.0
 ├── workflow/
 │   └── WORKFLOW.md                    # idea → production guide
