@@ -13,6 +13,13 @@ How I go from idea to shipped product with Claude Code:
 
 Full step-by-step guide, templates, skills I use, and git workflow: **[workflow/WORKFLOW.md](workflow/WORKFLOW.md)**
 
+## Guides: using AI coding agents well
+
+Practical, sourced guidance for getting better results with fewer wasted tokens, covering Claude Code, with notes for OpenAI Codex, Gemini CLI, and GitHub Copilot: **[guides/](guides/README.md)**
+
+- [Token economy](guides/01-token-economy.md) · [Prompting coding agents](guides/02-prompting-coding-agents.md) · [Claude Code features](guides/03-claude-code-features.md) · [Recipes by situation](guides/04-recipes-by-situation.md)
+- [Working safely](guides/05-working-safely.md) · [Across AI tools](guides/06-across-ai-tools.md) · [Anti-patterns](guides/07-anti-patterns.md) · [Sources](guides/SOURCES.md)
+
 ## Contents
 
 | Skill | Description |
