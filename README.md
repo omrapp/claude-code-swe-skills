@@ -11,7 +11,7 @@ How I go from idea to shipped product with Claude Code:
 3. **Refine UI/UX** with [`design-flow`](https://github.com/julianoczkowski/designer-skills/tree/main/design-flow).
 4. **Release and deploy** with a pre-release checklist.
 
-Full step-by-step guide, templates, skills I use, and git workflow: **[docs/WORKFLOW.md](docs/WORKFLOW.md)**
+Full step-by-step guide, templates, skills I use, and git workflow: **[workflow/WORKFLOW.md](workflow/WORKFLOW.md)**
 
 ## Contents
 
