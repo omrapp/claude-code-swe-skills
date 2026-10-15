@@ -19,6 +19,7 @@ Full step-by-step guide, templates, skills I use, and git workflow: **[docs/WORK
 |-------|-------------|
 | [enhance-and-refine](enhance-and-refine-skill/enhance-and-refine-skill.md) | Custom slash command that refines a prompt for clarity, grammar, technical accuracy, and structure before executing it. |
 | [scope](scope/scope.md) | `/scope` command: asks clarifying questions, writes a plan to `/plan`, and builds with an agent team only after approval. Install at `~/.claude/commands/scope.md`. |
+| [CLAUDE.md template](claude/CLAUDE.md) | Generic `CLAUDE.md` for any project: core rules, approval gates, validation, git workflow, and final report format. Copy to your project root and fill in the `<placeholders>`. |
 
 ## Usage
 
